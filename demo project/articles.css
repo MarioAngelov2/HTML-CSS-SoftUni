@@ -1,0 +1,82 @@
+article {
+  width: 300px;
+}
+
+#articlesSection {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.articles li {
+  display: inline-block;
+  width: 30%;
+  margin-right: 4.6%;
+}
+
+.articles li:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+.article {
+  width: 100%;
+}
+
+/* .arcitle .article__img_wrapper {
+  aspect-ratio: 1 / 1;
+  border-radius: 21px;
+  margin-bottom: 12px;
+} */
+
+.article .article__img_wrapper {
+  aspect-ratio: 1 / 1;
+  border-radius: 21px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.article .article__img_wrapper .article__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.article .article__title {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 28px;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.article .article__desc {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #6b6d6e;
+}
+
+.tag {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.tag.tag--info {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+.tag.tag--success {
+  background-color: lightblue;
+  color: midnightblue;
+}
+.tag.tag--danger {
+  background-color: lightcoral;
+  color: darkred;
+}
+.tag.tag--warn {
+  background-color: rgb(236, 236, 133);
+  color: rgb(212, 197, 63);
+}
