@@ -1,1 +1,1 @@
-# HTML-CSS---SoftUni
+# HTML-CSS-SoftUni
